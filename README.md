@@ -53,4 +53,6 @@ There are 4 main gulp tasks:
 
 3. You probably wouldn't want `dev_dist` in the repository. Feel free to add it to `.gitignore` file.
 
+4. The `source1.js` and `source2.js` files in `/src/js/` directory are just there to prove that JS related build configurations are working. Feel free to delete them.
+
 [1]: https://www.npmjs.com/package/live-server
