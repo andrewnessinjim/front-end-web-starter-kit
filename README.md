@@ -1,8 +1,9 @@
-#Front End Web Project Starter Kit
+# Front End Web Project Starter Kit
 
 You can use this template to kick start a front-end web project that uses gulp, sass and ES6. It essentially sets up a gulp build pipeline. I would recommend [3D Buzz's Using Modern JavaScript Today](https://www.3dbuzz.com/training/view/using-modern-javascript-today/details "Using Modern JavaScript Today") course if you would like to learn build pipelines for web projects using gulp. It also covers a whole lot of other essential skills for web developemnt. Of course, feel free to learn from other sources, but that's where I learnt it from and I enjoyed it.
 
-###Workflow
+### Workflow
+
 ---
 The source images, sass and es6 code are located in the src directory. This is where you will create all your application files.
 
@@ -31,7 +32,7 @@ There are 4 main gulp tasks:
 4. *prod* - This runs the prod:build task and also starts watchign the src files for running prod tasks.
 
 ---
-###Quickstart
+### Quickstart
 
 1. Make sure you download the project and commit it into your repo. If you decide to clone, then your repo will have this project's git history, which may not be preferrable.
 
@@ -45,7 +46,7 @@ There are 4 main gulp tasks:
 
 ---
 
-###Other Options
+### Other Options
 1. If you had used `gulp prod` instead of `gulp dev` in the above quickstart, then you would see the production version of the application in the `dist` directory.
 
 2. Use `gulp dev:build` or `gulp prod:build` in case you just want to build the project, but don't want to watch the files.
