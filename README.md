@@ -44,6 +44,8 @@ There are 4 main gulp tasks:
 
 5. You're done! Based on which http server you used, navigate to `index.html` in your browser and you should see the development version of the application.
 
+6. Be sure to replace the contents of the `README.md` file before you make your initial commit.
+
 ---
 
 ### Other Options
