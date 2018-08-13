@@ -1,2 +1,11 @@
+"use strict";
+
 console.log("I'm source file 1");
-console.log("I'm source file 2")
+var me = "be myself";
+"use strict";
+
+console.log("I'm source file 2");
+var myFunc = function myFunc(name) {
+  return console.log(name);
+};
+//# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNvdXJjZTEuanMiLCJzb3VyY2UyLmpzIl0sIm5hbWVzIjpbImNvbnNvbGUiLCJsb2ciLCJtZSIsIm15RnVuYyIsIm5hbWUiXSwibWFwcGluZ3MiOiI7O0FBQUFBLFFBQVFDLEdBQVIsQ0FBWSxtQkFBWjtBQUNBLElBQUlDLEtBQUssV0FBVDs7O0FDREFGLFFBQVFDLEdBQVIsQ0FBWSxtQkFBWjtBQUNBLElBQUlFLFNBQVMsU0FBVEEsTUFBUztBQUFBLFNBQVFILFFBQVFDLEdBQVIsQ0FBWUcsSUFBWixDQUFSO0FBQUEsQ0FBYiIsImZpbGUiOiJhcHAuanMiLCJzb3VyY2VzQ29udGVudCI6WyJjb25zb2xlLmxvZyhcIkknbSBzb3VyY2UgZmlsZSAxXCIpO1xubGV0IG1lID0gXCJiZSBteXNlbGZcIjsiLCJjb25zb2xlLmxvZyhcIkknbSBzb3VyY2UgZmlsZSAyXCIpO1xubGV0IG15RnVuYyA9IG5hbWUgPT4gY29uc29sZS5sb2cobmFtZSk7Il19

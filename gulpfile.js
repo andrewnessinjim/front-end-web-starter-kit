@@ -88,13 +88,17 @@ function prodStyles() {
 function devScripts() {
     return gulp
         .src(config.scripts.src)
+        .pipe($.sourcemaps.init())
+        .pipe($.babel())
         .pipe($.concat(config.scripts.jsBundle))
+        .pipe($.sourcemaps.write())
         .pipe(gulp.dest(config.scripts.devDest));
 }
 
 function prodScripts() {
     return gulp
         .src(config.scripts.src)
+        .pipe($.babel())
         .pipe($.concat(config.scripts.jsBundle))
         .pipe(gulp.dest(config.scripts.prodDest));
 }
